@@ -81,9 +81,8 @@ header {
 
 #firstButton { 
     background-color: rgb(255, 255, 255);
-    background: linear-gradient(to right, #ff758c 0%, #f41b89 100%);
-    -webkit-background-clip: text;
-    color: transparent;
+    color:  #f41b89;
+   
 }
 
 #secondButton {
@@ -99,6 +98,7 @@ header {
     background-repeat: no-repeat;
     display: flex;
     align-items: flex-end;
+    opacity: 0.8;
 }
 
 #phoneContainer {
@@ -269,7 +269,7 @@ span {
 footer {
     height: 8vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     align-items: center;
     padding: 0 10rem;
@@ -278,6 +278,7 @@ footer {
 .redes {
     width: auto;
     height: 2rem;
+    text-align: center;
 }
 
 #author {
