@@ -92,7 +92,7 @@ header {
 
 .backgroundImg {
     width: 50%;
-    background-image: url(/img/leafsBackground.jpg);
+    background-image: url(../img/leafsBackground.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -481,6 +481,11 @@ span {
         font-size: 5px;
     }
 
+    .logo img {
+        width: auto;
+        height: 6rem;
+    }
+
     header{
         height: 25vh;
         flex-direction: column;
@@ -528,7 +533,19 @@ span {
         height: 6rem;
     }
 
+    .thirdContainer article p {
+        text-align: center;
+        width: 40rem;
+    }
+
     .fourthContainer {
         height: 6vh;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    .fourthContainer p{
+        margin: 1rem 0;
+    }
+    
 }
