@@ -266,13 +266,12 @@ span {
     margin: 1rem ;
 }
 
-footer {
+.fourthContainer {
     height: 8vh;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 10rem;
+   
 }
 
 .redes {
@@ -320,7 +319,7 @@ footer {
 
 @media (min-width:769px) and (max-width:920px) {
     .secondContainer {
-        height: 160vh;
+        height: 80vh;
     }
 
     .secondContainer h2 {
@@ -337,12 +336,12 @@ footer {
     }
 
     header {
-        height: 25vh;
+        height:15vh;
         flex-direction: column;
     }
 
     .principalNav ul {
-        height: 10vh;
+        height: 3vh;
         align-items: flex-start;
     }
 
@@ -357,73 +356,14 @@ footer {
     }
     
     header {
-        height: 50vh;
+        height: 35vh;
         flex-direction: column;
-    }
-
-    .principalNav{
-        height: 20vh;
-        width: 50vh;
-    }
-    .principalNav ul  {
-        flex-direction: column;
-        flex-wrap: nowrap;
-        text-align: center;
         justify-content: center;
     }
 
-    .principalNav ul li {
-        margin: 0.5rem;
-    }
-
-    #articleContainer button {
-        width: 10rem;
-        margin: 0.5rem;
-    }
-
-    .buttons {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .secondContainer{
-        height: 110vh;
-    }
-
-    .secondContainer h2 {
-        margin: 0;
-    }
-
-    .thirdContainer article p {
-        text-align: center;
-        width: 30rem;
-    }
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 0 3rem ;
-    }
-
-    footer article p {
-        margin: 0.5rem;
-        
-    }
-}
-
-@media (min-width:352px) and (max-width:480px) {
-    *{
-        font-size: 8px;
-    }
-    
-    header {
-        height: 35vh;
-        flex-direction: column;
-    }
-
     .principalNav{
-        height: 15vh;
+        height: 10vh;
+        margin: 3rem 0;
     }
     .principalNav ul  {
         flex-direction: column;
@@ -469,5 +409,126 @@ footer {
     footer article p {
         margin: 0.5rem;
         
+    }
+}
+
+@media (min-width:352px) and (max-width:480px) {
+    *{
+        font-size: 8px;
+    }
+    
+    header {
+        height: 30vh;
+        flex-direction: column;
+    }
+
+    .principalNav{
+        height: 15vh;
+    }
+    .principalNav ul  {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .principalNav ul li {
+        margin: 0.5rem;
+    }
+
+    #articleContainer button {
+        width: 10rem;
+        margin: 0.5rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .secondContainer{
+        height: 58vh;
+    }
+
+    .secondContainer h2 {
+        margin: 0;
+    }
+
+    .thirdContainer article p {
+        text-align: center;
+        width: 30rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 3rem ;
+    }
+
+    footer article p {
+        margin: 0.5rem;
+        
+    }
+
+    .fourthContainer{
+        height: 6vh;
+    }
+}
+
+@media (max-width: 280px)  {
+    *{
+        font-size: 5px;
+    }
+
+    header{
+        height: 25vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .principalNav {
+        margin: 3rem;
+    }
+
+    .principalNav ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+    .principalNav ul  li{
+        height: 8rem;;
+    }
+    
+    #special {
+        margin: 8rem 0;
+    }
+
+    #articleContainer {
+        margin: 7rem 0 7rem 4rem;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #articleContainer button {
+        width: 12rem;
+        margin: 1rem;
+    }
+
+    .secondContainer{
+        height: 50vh;
+    }
+
+    .icon {
+        width: auto;
+        height: 6rem;
+    }
+
+    .fourthContainer {
+        height: 6vh;
     }
 }
